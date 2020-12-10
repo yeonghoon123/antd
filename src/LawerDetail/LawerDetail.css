@@ -1,0 +1,125 @@
+.LawerDetail_Container{
+    margin: 10px auto;
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*이미지 버튼 CSS*/
+.LawerDetail_ImgBtn{
+    max-width: 500px;
+    padding: 15px 75px 15px;
+    height: 800px
+}
+.LawerDetail_Img{
+    width: 100%;
+    margin: 30px auto 30px;
+    height: 440px;
+}
+.LawerDetail_Btn{
+    width: 100%;
+    height: 50px;
+}
+.LawerDetail_LawerImg{
+   width: 100%;
+   height: 440px;
+  object-fit: cover;
+}
+
+
+/*노무사 설명 부분*/
+.LawerDetail_Content{
+    max-width: 700px;
+    height: 800px;
+    padding: 40px 50px 15px;
+}
+.LawerDetail_ContentHeader{
+    width: 100%;
+}
+.LawerDetail_HeaderBox{
+    width: 150px;
+    height: 5px;
+    background-color: #40A9FF;
+}
+.LawerDetail_HeaderText{
+    padding: 15px 0;
+    font-family: "SpoqaHanSans";
+    font-size: 54px;
+    color: #595959;
+}
+.LawerDetail_HeaderSub{
+    color: #8C8C8C;
+    font-family: "SpoqaHanSans";
+    font-size: 24px;
+}
+.LawerDetail_SubText{
+    color: #8C8C8C;
+    font-family: "SpoqaHanSans";
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+@media (max-width: 480px){
+    .LawerDetail_Container{
+        margin: 10px auto;
+        max-width: 1200px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*이미지 버튼 CSS*/
+    .LawerDetail_ImgBtn{
+        max-width: 500px;
+        padding: 15px 75px 15px;
+        height: 800px
+    }
+    .LawerDetail_Img{
+        width: 100%;
+        margin: 30px auto 30px;
+        height: 440px;
+    }
+    .LawerDetail_Btn{
+        width: 100%;
+        height: 50px;
+    }
+    .LawerDetail_LawerImg{
+       width: 100%;
+       height: 440px;
+      object-fit: cover;
+    }
+    
+    
+    /*노무사 설명 부분*/
+    .LawerDetail_Content{
+        max-width: 700px;
+        height: 800px;
+        padding: 40px 50px 15px;
+    }
+    .LawerDetail_ContentHeader{
+        width: 100%;
+    }
+    .LawerDetail_HeaderBox{
+        width: 150px;
+        height: 5px;
+        background-color: #40A9FF;
+    }
+    .LawerDetail_HeaderText{
+        padding: 15px 0;
+        font-family: "SpoqaHanSans";
+        font-size: 30px;
+        color: #595959;
+    }
+    .LawerDetail_HeaderSub{
+        color: #8C8C8C;
+        font-family: "SpoqaHanSans";
+        font-size: 20px;
+    }
+    .LawerDetail_SubText{
+        color: #8C8C8C;
+        font-family: "SpoqaHanSans";
+        font-size: 10px;
+        padding: 5px 0;
+    }
+}

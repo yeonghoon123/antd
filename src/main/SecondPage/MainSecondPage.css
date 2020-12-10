@@ -1,0 +1,69 @@
+.Main_Second_Container{
+    margin: 0 auto ;
+    max-width: 1440px;
+    border: 1px solid black;
+    background-color: #F5F5F5;
+    height: auto
+}
+.Main_Second_Header{
+text-align: center;
+padding: 43px 0;
+}
+.Main_Second_HeaderText{
+    color: #262626;
+    font-size: 30px;
+    line-height: 38px;
+    font-family: "SpoqaHoanSans";
+    font-weight: bold;
+}
+
+.Main_Second_Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 0 10px 0 ;
+}
+.Main_Second_Lawer{
+    border: 1px solid black;
+    width: 330px;
+    height: 500px;
+    margin: 0 12px 12px;
+}
+.Main_Second_LawerImgWrapper{
+    border: 1px solid black;
+    width: 330px;
+    height: 330px;
+}
+.Main_Second_LawerImg{
+    
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+.Main_Second_LawerContentWrapper{
+    border: 1px solid black;
+    width: 330px;
+    padding: 16px 0 26px 20px;
+    height: 170px;
+}
+.Main_Second_ContentHeader{
+    font-size: 30px;
+    line-height: 38px;
+    font-family: "SpoqaHanSans";
+    font-weight: bold;
+}
+.Main_Second_ContentSub{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "SpoqaHanSans";
+}
+.Main_Second_ContentTagWrapper{
+    margin-top: 30px;
+    height: 28px;
+    padding: 3px 6px;
+}
+.Main_Second_ContentTag{
+    border-radius: 12px;
+}

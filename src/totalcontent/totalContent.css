@@ -1,0 +1,58 @@
+
+.totalContent_TotalContainer{
+    margin: 20px auto  ;
+    max-width: 516px;
+    height: auto;
+    padding:0 20px;
+    border: 1px solid #d9d9d9;
+}
+/*회사 정보 CSS*/
+
+.totalContent_HeaderContainer{
+    width: 100%;
+    padding-top: 20px;
+    margin:  0 auto;
+}
+/*회사 정보 CSS*/
+.totalContent_ProposerInformationContainer{
+    width: 100%;
+    padding-top: 20px;
+    margin:  0 auto;
+}
+/*노무사 정보 CSS*/
+
+/*입력창 및 헤더 CSS*/
+.totalContent_Header{
+    width: 100%;
+    padding-top: 20px ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "SpoqaHanSans";
+}
+
+.totalContent_Input{
+    width: 100%;
+    padding-top: 20px ;
+}
+
+.totalContent_Span{
+    color: red;
+    padding-right: 5px;
+}
+
+.totalContent_LastInput{
+    width: 100%;
+    padding: 20px 0px 10px;
+}
+
+.totalContent_SelectBox{
+    padding-top: 10px ;
+}
+
+.totalContent_LastSelectBox{
+    padding-top: 10px;
+}
+.totalContent_SubmitBtn{
+    width: 100%;
+    margin: 20px 0;
+}
