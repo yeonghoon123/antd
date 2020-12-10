@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Tag } from 'antd'
 import img from "../img/asd.jpg"
 import 'antd/dist/antd.css';
@@ -11,18 +12,20 @@ export default function Lawer(data) {
     console.log(getData)
     return (
         <>
-            <div className="Main_Second_Lawer">
-                <div className="Main_Second_LawerImgWrapper">
-                    <img src={img} alt="" className="Main_Second_LawerImg"></img>
-                </div>
-                <div className="Main_Second_LawerContentWrapper">
-                    <div className="Main_Second_ContentHeader">{getData[0].lawer}</div>
-                    <div className="Main_Second_ContentSub">{getData[0].sub}</div>
-                    <div className="Main_Second_ContentTagWrapper">
-                        <Tag color="#515251" className="Main_Second_ContentTag">{getData[0].tag}</Tag>
+            <Link to="/detail">
+                <div className="Main_Second_Lawer">
+                    <div className="Main_Second_LawerImgWrapper">
+                        <img src={img} alt="" className="Main_Second_LawerImg"></img>
+                    </div>
+                    <div className="Main_Second_LawerContentWrapper">
+                        <div className="Main_Second_ContentHeader">{getData[0].lawer}</div>
+                        <div className="Main_Second_ContentSub">{getData[0].sub}</div>
+                        <div className="Main_Second_ContentTagWrapper">
+                            <Tag color="#515251" className="Main_Second_ContentTag">{getData[0].tag}</Tag>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }
