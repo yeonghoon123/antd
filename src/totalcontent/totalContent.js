@@ -19,6 +19,12 @@ export default function TotalContent() {
             [name]: value
         })
     }
+    const lawerValue = (value) => {
+        setFormdata({
+            ...formdata,
+            "lawer": value
+        })
+    }
     const playValue = (value) => {
         setFormdata({
             ...formdata,
@@ -110,12 +116,12 @@ export default function TotalContent() {
 
     return (
         <>
-            <form action="javascript : submitData()">
+            <form>
                 <div className="totalContent_TotalContainer">
                     <CompanyInf getValue={getValue} />
                     <ProposerInf getValue={getValue} />
-                    <LawerInf getValue={getValue} playValue={playValue} timeValue={timeValue} />
-                    <Button type="primary" htmlType="submit" className="totalContent_SubmitBtn" onClick={(e) => { submitData(e) }}>신청서 제출하기</Button>
+                    <LawerInf lawerValue={lawerValue} playValue={playValue} timeValue={timeValue} />
+                    <Button type="primary" className="totalContent_SubmitBtn" onClick={submitData}>신청서 제출하기</Button>
                 </div>
             </form>
         </>

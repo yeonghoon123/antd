@@ -1,5 +1,5 @@
 import React from 'react'
-import { Input, Select } from 'antd'
+import { Select } from 'antd'
 
 export default function LawerInf(props) {
     const { Option } = Select
@@ -10,12 +10,16 @@ export default function LawerInf(props) {
             </div>
             <div className="totalContent_Input">
                 상담 노무사
-                <Input placeholder="이름을 입력해 주세요." style={{ marginTop: "5px" }} required name="lawer" onChange={props.getValue} />
+                <Select defaultValue="-상담할 노무사를 선택하세요-" className="totalContent_Input" onChange={props.lawerValue} name="play">
+                    <Option value="권경렬 노무사">권경렬 노무사</Option>
+                    <Option value="박상민 노무사">박상민 노무사</Option>
+                    <Option value="공병수 노무사">공병수 노무사</Option>
+                </Select>
             </div>
             <div className="totalContent_Input">
                 상담 유형 선택
                 <div className="totalContent_SelectBox">
-                    <Select defaultValue="-유형 선택-" className="totalContent_Input" onChange={props.playValue} name="play">
+                    <Select defaultValue="-용건을 선택하세요-" className="totalContent_Input" onChange={props.playValue} name="play">
                         <Option value="단건 노무 상담">단건 노무 상담 (전화 상담 10분까지 무료 ~ 그 이후 10분당만원)</Option>
                         <Option value="연단위 노무 자문 계약 체결">연단위 노무 자문 계약 체결 (노무사 협의 후 최종 자문 비용이 결정되며, 단 최소 자문비는 월 10만원입니다.)</Option>
                         <Option value="긴급">긴급</Option>
