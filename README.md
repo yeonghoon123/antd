@@ -29,7 +29,7 @@ import 'antd/dist/antd.css';
  
 * 필수입력을 하지 안게 되면 경고 창이 뜨게 된다.
  <div>
- <img src="./gitimages/important.png">
+ <img src="./gitimages/important.PNG">
 </div>
 
  필수입력을 다할경우 데이터 가 보내지면서 JANDI메신저앱의 연동되어있는 WebHook과 Email전송을 하게 해준다.
@@ -112,9 +112,9 @@ import 'antd/dist/antd.css';
 
 ## 문의 받는 사람 메일 화면
  <div>
- <img src="./gitimages/getmail.png">
+ <img src="./gitimages/getmail.PNG">
 </div>
 
 ## WebHook으로 온 화면
 <div> 
-<img src="./gitimages/webhook.png"></div>
+<img src="./gitimages/webhook.PNG"></div>
