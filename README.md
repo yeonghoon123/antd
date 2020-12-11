@@ -14,7 +14,7 @@ import 'antd/dist/antd.css';
 
 이런 웹사이트를 이용해서 노무사 문의 신청 페이지를 꾸며 보았다.
 <div>
-<img src="./gitimages/main.png">
+<img src="https://github.com/yeonghoon123/antd/blob/master/gitimages/content.PNG">
 </div>
 노무사소개에 노무사를 클릭하게되면 디테일 화면이 나오게 된다.
 <div>
