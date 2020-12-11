@@ -14,27 +14,27 @@ import 'antd/dist/antd.css';
 
 이런 웹사이트를 이용해서 노무사 문의 신청 페이지를 꾸며 보았다.
 <div>
-<img src="./GitHubImg/캡처.png">
+<img src="./gitimages/main.png">
 </div>
 노무사소개에 노무사를 클릭하게되면 디테일 화면이 나오게 된다.
 <div>
-<img src="./GitHubImg/detail.png">
+<img src="./gitimages/detail.png">
 </div>
 버튼을 누르게 되면 문의를 넣을수있는 페이지로 넘어갈수 있게 해준다.
 
 <div>
-<img src="./GitHubImg/content.png">
+<img src="./gitimages/content.png">
 </div>
  입력할수 있도록 하는 입력창이 나오고
  
 * 필수입력을 하지 안게 되면 경고 창이 뜨게 된다.
  <div>
- <img src="./GitHubImg/important.png">
+ <img src="./gitimages/important.png">
 </div>
 
  필수입력을 다할경우 데이터 가 보내지면서 JANDI메신저앱의 연동되어있는 WebHook과 Email전송을 하게 해준다.
 <div>
- <img src="./GitHubImg/데이터 전송.png">
+ <img src="./gitimages/senddata.png">
 </div>
  보내지는 데이터 코드로는 
 
@@ -105,12 +105,17 @@ import 'antd/dist/antd.css';
  ```
 
  이런 식이며 메일과 웹훅에 데이터가 담겨져 전송 되면 이런 화면이 송출된다
+>## 문의 신청한 사람 메일 화면
+ <div>
+ <img src="./gitimages/sendgetmail
+ .png">
+</div>
 
- <div>## 문의 신청한 사람 메일 화면
- <img src="./GitHubImg/문의자 메일.png">
+## 문의 받는 사람 메일 화면
+ <div>
+ <img src="./gitimages/getmail.png">
 </div>
- <div>## 문의 받는 사람 메일 화면
- <img src="./GitHubImg/문의를 받는 메일.png">
-</div>
-<div> ## WebHook으로 온 화면
-<img src="./GitHubImg/웹훅.png"></div>
+
+## WebHook으로 온 화면
+<div> 
+<img src="./gitimages/webhook.png"></div>
