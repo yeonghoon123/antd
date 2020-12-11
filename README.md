@@ -14,16 +14,16 @@ import 'antd/dist/antd.css';
 
 이런 웹사이트를 이용해서 노무사 문의 신청 페이지를 꾸며 보았다.
 <div>
-<img src="https://github.com/yeonghoon123/antd/blob/master/gitimages/content.PNG">
+<img src="./gitimages/main.PNG">
 </div>
 노무사소개에 노무사를 클릭하게되면 디테일 화면이 나오게 된다.
 <div>
-<img src="https://github.com/yeonghoon123/antd/blob/master/gitimages/detail.PNG">
+<img src="./gitimages/detail.PNG">
 </div>
 버튼을 누르게 되면 문의를 넣을수있는 페이지로 넘어갈수 있게 해준다.
 
 <div>
-<img src="https://github.com/yeonghoon123/antd/blob/master/gitimages/content.PNG">
+<img src="./gitimages/content.PNG">
 </div>
  입력할수 있도록 하는 입력창이 나오고
  
@@ -34,7 +34,7 @@ import 'antd/dist/antd.css';
 
  필수입력을 다할경우 데이터 가 보내지면서 JANDI메신저앱의 연동되어있는 WebHook과 Email전송을 하게 해준다.
 <div>
- <img src="https://github.com/yeonghoon123/antd/blob/master/gitimages/senddata.PNG">
+ <img src="./gitimages/senddata.PNG">
 </div>
  보내지는 데이터 코드로는 
 
