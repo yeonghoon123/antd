@@ -41,7 +41,7 @@ export default function TotalContent() {
 
 
     async function submitData(e) {
-        if (formdata.companyName != null && formdata.enquiryName != null && formdata.number != null) {
+        if (formdata.companyName != null && formdata.enquiryName != null && formdata.number != null && formdata.companyName !== "" && formdata.enquiryName !== "" && formdata.number !== "") {
 
             //웹훅 보내는 코드
             var xhr = new XMLHttpRequest();
@@ -98,19 +98,20 @@ export default function TotalContent() {
                 play: formdata.play,
             }
 
-            emailjs.init("user_nORNSxbA9Ew8k6aTRsN9U");
-            emailjs.send("andy@jober.io", "template_gi6fgh1", content)
-            emailjs.send("andy@jober.io", "template_xoixqdj", content2)
-                .then(function (response) {
-                    console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-                }, function (err) {
-                    console.log("FAILED. error=", err);
-                })
+            // emailjs.init("user_nORNSxbA9Ew8k6aTRsN9U");
+            // emailjs.send("andy@jober.io", "template_gi6fgh1", content)
+            // emailjs.send("andy@jober.io", "template_xoixqdj", content2)
+            //     .then(function (response) {
+            //         console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+            //     }, function (err) {
+            //         console.log("FAILED. error=", err);
+            //     })
 
             setTimeout(() => {
                 document.location.href = "/"
             }, 2000);
-        }
+
+        } else { alert("필수 입력을 입력해 주세요.") }
 
     }
 
